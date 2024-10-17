@@ -5,7 +5,7 @@ Release:          8.1%{?dist}
 Summary:          Experimental API extending basic StAX implementation
 License:          BSD
 # NOTE. new home http://wiki.fasterxml.com/WoodstoxStax2
-URL:              http://docs.codehaus.org/display/WSTX/StAX2
+URL:              https://docs.codehaus.org/display/WSTX/StAX2
 # NOTE. newer release available here https://github.com/FasterXML/stax2-api/
 Source0:          http://repository.codehaus.org/org/codehaus/woodstox/%{name}/%{version}/%{name}-%{version}-sources.jar
 Source1:          http://repository.codehaus.org/org/codehaus/woodstox/%{name}/%{version}/%{name}-%{version}.pom
