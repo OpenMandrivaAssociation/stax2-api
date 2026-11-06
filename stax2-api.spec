@@ -10,6 +10,8 @@ Source0:	https://github.com/FasterXML/stax2-api/archive/refs/tags/stax2-api-%{ve
 BuildArch:	noarch
 Obsoletes:	%{name}-javadoc < 4
 BuildRequires:	mvn(com.fasterxml:oss-parent:pom::)
+# oss-parent pins the compiler plugin to this ASM jar.
+BuildRequires:	mvn(org.ow2.asm:asm)
 # Literal, so the first rpmbuild -bs records them before sysjar is installed.
 BuildRequires:	maven
 BuildRequires:	java-current-devel
